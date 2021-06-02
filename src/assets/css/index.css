@@ -1,0 +1,457 @@
+/* .mainContainer {
+  background: url('../1392707420038_0.jpg') no-repeat;
+
+
+} */
+/* html,
+body {
+  height: 100%;
+  width: 100%;
+} */
+
+#juisOne .el-tabs__item {
+    color: #000000;
+  }
+  
+  #juisOne .el-tabs__item.is-active {
+    /* color: #00439f; */
+    color: #000000
+  }
+  
+  /* .juri_right .el-tabs--card>.el-tabs__header{
+    border-bottom: 1px solid #00439f;
+  }
+  .juri_right .el-tabs--card>.el-tabs__header .el-tabs__nav{
+    border: 1px solid #00439f;
+  }
+  .juri_right .el-tabs--card>.el-tabs__header .el-tabs__item.is-active{
+    border:0;
+  }
+  .juri_right .el-tabs--card>.el-tabs__header .el-tabs__item{
+    border-left: 1px solid #00439f;
+    border-right: 1px solid #00439f;
+  } */
+  .el-table,
+  .el-table__expanded-cell {
+    background-color: #c7e4f3;
+    background-color: transparent;
+  
+    /* color: #00439f; */
+    color: #000000
+  }
+  
+  /* .el-table thead {
+    color: #000000
+  } */
+  
+  #fenye .el-input__inner {
+    background-color: transparent;
+    /* color: #00439f; */
+    color: #000000
+  }
+  
+  #app .el-table th,
+  .el-table tr,
+  .el-pagination button:disabled,
+  .el-pager li,
+  #centerLeft .el-menu {
+    background-color: #c7e4f3;
+    background-color: transparent;
+  
+  }
+  
+  #app .el-table--enable-row-transition .el-table__body td {
+    padding: 5px;
+  }
+  
+  #leftShow::-webkit-scrollbar {
+    background-color: #c7e4f3;
+    background-color: transparent;
+  
+  }
+  
+  .el-table::before {
+    height: 0;
+  }
+  
+  #detail .el-collapse-item__wrap {
+    background-color: transparent;
+  }
+  
+  #detail .el-collapse-item__header {
+    background-color: transparent;
+  }
+  
+  #lab_liu .el-tabs__nav .el-tabs__item:nth-child(1) span {
+    display: none;
+  }
+  
+  /*11111111111111111111*/
+  #bpa,
+  .el-table td,
+  .el-table th {
+    padding: 0px !important;
+  }
+  
+  /* #bpa,
+  .el-table--border th,
+  .el-table__fixed-right-patch {
+    border-bottom: 1px solid #000000 !important;
+  } */
+  
+  #app,
+  .bap,
+  .el-card__body {
+    background-color: #c7e4f3;
+    background-color: transparent;
+  
+  }
+  
+  #bpa,
+  .el-tabs--border-card {
+    background-color: transparent;
+  }
+  
+  #bpa,
+  .el-tabs--border-card>.el-tabs__header {
+    background-color: transparent;
+  }
+  
+  #bpa,
+  .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+    background-color: transparent;
+  }
+  
+  /* #bpa,
+  .el-dialog__body {
+    position: relative;
+  } */
+  
+  /* #bpa,
+  .el-form-item {
+    margin-bottom: 5px;
+  } */
+  
+  .el-transfer-panel {
+    background: #c7e4f3;
+    background-color: transparent;
+  
+    width: 42.5%;
+    height: 570px;
+    margin-left: 12px;
+    margin-top: 30px;
+  }
+  
+  .addClfz .el-transfer-panel {
+    background: #c7e4f3;
+    background-color: transparent;
+  
+    width: 42.5%;
+    height: 570px;
+  }
+  
+  .addClfz .el-transfer-panel__list.is-filterable {
+    height: 419px;
+    padding-top: 0;
+  }
+  
+  .addClfz .dialogTransfer .el-dialog,
+  .el-pager li {
+    background: #c7e4f3;
+    background-color: transparent;
+  
+    height: 78%;
+  }
+  
+  .addClfz .el-transfer__button {
+    width: 100px;
+    margin: 0px;
+  }
+  
+  .addClfz .el-transfer__buttons {
+    margin-left: 1%;
+  }
+  
+  .el-dialog {
+    background: #c7e4f3;
+    /* background-color: transparent; */
+  
+  
+  }
+  
+  .el-transfer-panel__body {
+    height: 100%;
+  }
+  
+  .el-transfer-panel__list.is-filterable {
+    height: 100%;
+  }
+  
+  .el-transfer__button:nth-child(2) {
+    margin: 0;
+    margin-left: 0;
+  }
+  
+  .el-transfer__button:first-child {
+    margin-bottom: 20px;
+  }
+  
+  .addClfz .el-button {
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .el-dialog__wrapper {
+    position: fixed;
+    top: -30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    margin: 0;
+  }
+  
+  /*  */
+  
+  
+  
+  
+  /*  */
+  .el-date-editor.el-input,
+  .el-date-editor.el-input__inner {
+    width: 225px;
+  }
+  
+  .el-date-editor.el-input,
+  .el-date-editor.el-input__inner {
+    width: 320px;
+  }
+  
+  input::-webkit-input-placeholder {
+    color: #b5bac5;
+  }
+  
+  #editRole,
+  .el-dialog__body {
+    padding: 10px 20px;
+  }
+  
+  /* 使table表格的边框变为黑色 */
+  .el-table td,
+  .el-table th.is-leaf,
+  .el-table--border,
+  .el-table--group {
+    border-color: black;
+  
+  }
+  
+  /* .el-table--border::after, .el-table--group::after, .el-table::before{
+    background-color: black;
+  } */
+  /* 表格鼠标点击某一行时改变颜色 */
+  
+  /* table表格鼠标点击某一行时改变颜色 */
+  .current-row>td {
+    background: #ecf5ff !important;
+  }
+  
+  /*  改变table鼠标移动上去高亮的颜色*/
+  
+  .el-table tbody tr:hover>td {
+    background-color: #ecf5ff !important
+  }
+  
+  /* 改变input框的边框颜色 */
+  .el-input__inner {
+    border: 1px solid black;
+  }
+  
+  .login_container .el-input__inner {
+    border: 1px solid rgb(220, 223, 230);
+  }
+  
+  .el-input.is-disabled .el-input__inner {
+    border: 1px solid black;
+  
+  }
+  
+  /* 日期边框变黑 */
+  .datepicker-range {
+    border: 1px solid black;
+  }
+  
+  /*  文本框颜色变黑*/
+  .el-textarea {
+    border: 1px solid black
+  }
+  
+  /* 表格页面的tabs的边框颜色 */
+  .el-tabs__nav-scroll {
+    border-bottom: 1px solid black;
+  }
+  
+  /* table表格显示右边框线 */
+  .el-table--border {
+    border-right: 1px solid black;
+  }
+  
+  /*控制table表格的勾选按钮  */
+  .el-checkbox__inner {
+    border: 1px solid black
+  }
+  
+  .el-tree {
+    background: transparent;
+  }
+  
+  /* 解决页面跳转后table表格最后一行显示不全问题 ，overflow属性为hidden时，最后一行显示不全*/
+  /* .el-table {
+    overflow: hidden;
+  } */
+  .el-table {
+    overflow: auto;
+  }
+  
+  /*基础数据管理新增功能模块控制左侧菜单的样式  */
+  .el-menu--horizontal>.el-menu-item:not(.is-disabled):focus,
+  .el-menu--horizontal>.el-menu-item:not(.is-disabled):hover,
+  .el-menu--horizontal>.el-submenu .el-submenu__title:hover {
+    background-color: #8CB6C0;
+    color: white
+  }
+  
+  /* 以下两段代码控制基础数据管理四个表头 */
+  
+  .el-tabs__item.is-active {
+    background-color: #8CB6C0;
+    color: white
+  }
+  
+  .el-tabs__item:hover {
+    background-color: #8CB6C0;
+    color: white
+  }
+  
+  /* 以下上控制基础数据管理仿真管理模块的BPA潮流数据和BPA稳定数据的样式 */
+  .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+    color: white;
+    background-color: #8CB6C0 !important;
+  }
+  
+  .el-tabs--border-card>.el-tabs__header .el-tabs__item:not(.is-disabled):hover {
+    color: white;
+  }
+  
+  .el-tabs--border-card>.el-tabs__header .el-tabs__item {
+    color: black;
+  }
+  
+  /* 以下控制电网运行方式数据生成左侧的菜单栏*/
+  .el-menu {
+    background-color: transparent;
+  }
+  
+  /*  以下两个控制基础数据管理设备管理模型参数预览弹出框的tab的padding*/
+  .el-tabs--top .el-tabs__item.is-top:last-child {
+    padding-right: 20px;
+  
+  }
+  
+  .el-tabs--top .el-tabs__item.is-top:nth-child(2) {
+    padding-left: 20px;
+    margin-right: 0px;
+  }
+  
+  /* 一下控制不让预览切换tab标签和swi标签时出现下方滚动条 */
+  #generatrix,
+  .el-tabs__active-bar {
+    height: 0;
+  }
+  
+  /* 弹出层设置背景色  头部 */
+  .el-dialog__header {
+    background: url('../img/gplaypattern_@2X.png') repeat;
+  }
+  
+  /* 弹出层设置背景色 底部*/
+  .el-dialog__footer {
+    background: url('../img/gplaypattern_@2X.png') repeat;
+  }
+  
+  /* 弹出层设置背景色 中部*/
+  .el-dialog__body {
+    background: url('../img/gplaypattern_@2X.png') repeat;
+  }
+  
+  /*  */
+  /* .el-table .el-table--fit .el-table--border .el-table--group .el-table--scrollable-y .el-table--enable-row-hover .el-table--enable-row-transition {
+    border-bottom: 1px solid red
+  } */
+  /* 动态组件 */
+  .tab-button {
+    padding: 6px 5px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: #f0f0f0;
+    margin-bottom: -1px;
+    margin-right: -1px;
+  }
+  
+  .tab-button.active {
+    background: #8CB6C0 !important;
+  }
+  
+  .tab-button:hover {
+    background: #8CB6C0;
+  }
+  
+  .tab-button:focus {
+    background: #8CB6C0 !important;
+  }
+  
+  /* .tab-button:focus {
+    background: #8CB6C0 !important;
+  } */
+  
+  /* #conponents .el-tabs__item.is-active {
+    color: #8CB6C0 !important
+  } */
+  
+  /* --- */
+  .tab {
+    border-top: 1px solid #ccc;
+    /* padding: 10px; */
+  }
+  
+  .el-menu {
+    height: 100%;
+  }
+  
+  /* 控制表格每行的高度 */
+  .el-table__body .el-table__row {
+    height: 36px;
+  }
+  
+  /*  控制详情页面bpa生成表格的单个单元格的高度*/
+  #detail .gendialog .el-form-item {
+    margin-top: 22px;
+  }
+  
+  /* 以下两个el-table__empty-block、el-table__empty-text  控制空表格只显示表头，
+  '暂无数据'空表格不会显示*/
+  .el-table__empty-block {
+    min-height: 0px !important;
+  
+  }
+  
+  .el-table__empty-text {
+    height: 0;
+  }
+  
+  /*  */
+  .chfontsizeo>label.el-form-item__label {
+    font-size: 18px;
+  }
