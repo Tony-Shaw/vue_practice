@@ -5,10 +5,19 @@
       :key="index"
       v-bind:class="['tab-button', { active: currentTab === tab }]"
       @click="currentTab = tab"
-    >
-      {{ tab }}
-    </button>
-    <component :is="currentTabComponent" class="tab"></component>
+    >{{ tab }}</button>
+    <!-- 官网推荐 -->
+    <!-- <component :is="currentTabComponent" :value.sync="value" class="tab"></component> -->
+    <!-- 官网举例 -->
+    <!-- <component
+      :is="currentTabComponent"
+      :value="value"
+      v-on:update:value="value = $event"
+      class="tab"
+    ></component>-->
+    <!-- 另一种 -->
+    <!-- <component :is="currentTabComponent" @changeValue="changeValue" :value="value" class="tab"></component> -->
+    {{'父组件'+value}}
   </div>
 </template>
 <script>
@@ -20,12 +29,13 @@ export default {
   components: {
     Home,
     Posts,
-    Archive,
+    Archive
   },
   data() {
     return {
       currentTab: "Home",
       tabs: ["Home", "Posts", "Archive"],
+      value: "sync"
     };
   },
   created() {},
@@ -34,11 +44,16 @@ export default {
     // console.log(res);
   },
   computed: {
-    currentTabComponent: function () {
+    currentTabComponent: function() {
       return this.currentTab.toLowerCase();
-    },
+    }
   },
-  methods: {},
+  methods: {
+    // 子组件修改父组件,不使用sync
+    changeValue(val) {
+      this.value = val;
+    }
+  }
 };
 </script>
 

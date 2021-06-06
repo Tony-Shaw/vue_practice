@@ -389,7 +389,7 @@ body {
     border-bottom: 1px solid red
   } */
   /* 动态组件 */
-  .tab-button {
+  /* .tab-button {
     padding: 6px 5px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -398,19 +398,19 @@ body {
     background: #f0f0f0;
     margin-bottom: -1px;
     margin-right: -1px;
-  }
+  } */
   
-  .tab-button.active {
+  /* .tab-button.active {
     background: #8CB6C0 !important;
-  }
+  } */
   
-  .tab-button:hover {
+  /* .tab-button:hover {
     background: #8CB6C0;
-  }
+  } */
   
-  .tab-button:focus {
+  /* .tab-button:focus {
     background: #8CB6C0 !important;
-  }
+  } */
   
   /* .tab-button:focus {
     background: #8CB6C0 !important;
