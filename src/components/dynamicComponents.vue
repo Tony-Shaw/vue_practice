@@ -7,7 +7,7 @@
       @click="currentTab = tab"
     >{{ tab }}</button>
     <!-- 官网推荐 -->
-    <!-- <component :is="currentTabComponent" :value.sync="value" class="tab"></component> -->
+    <component :is="currentTabComponent" :value.sync="value" class="tab"></component>
     <!-- 官网举例 -->
     <!-- <component
       :is="currentTabComponent"

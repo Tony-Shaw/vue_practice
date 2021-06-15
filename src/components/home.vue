@@ -76,20 +76,27 @@ export default {
               children: [],
               order: null
             },
-            {
-              id: 112,
-              authName: "vuexTest",
-              path: "vuexTest",
-              children: [],
-              order: null
-            },
+            // {
+            //   id: 112,
+            //   authName: "vuexTest",
+            //   path: "vuexTest",
+            //   children: [],
+            //   order: null
+            // },
             {
               id: 113,
               authName: "echartsMap",
               path: "echartsMap",
               children: [],
               order: null
-            }
+            },
+             {
+              id: 114,
+              authName: "面试",
+              path: "interview",
+              children: [],
+              order: null
+            },
           ],
           order: 1
         }
