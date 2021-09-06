@@ -6,6 +6,7 @@ import EchartsMap from '@/components/echartMap'
 import NextTick from '@/components/nextTick'
 import VuexTest from '@/components/vuex'
 import Interview from '@/components/interview'
+import Test from '@/components/test'
 Vue.use(Router)
 
 const router = new Router({
@@ -35,6 +36,11 @@ const router = new Router({
           path: '/dynamicComponents',
           name: 'DynamicComponents',
           component: DynamicComponents
+        },
+        {
+          path: '/test',
+          name: 'Test',
+          component: Test
         },
         {
           path: '/vuexTest',

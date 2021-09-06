@@ -10,12 +10,14 @@
     <!-- 下拉框选项 -->
     <ul v-show="isShow" class="ulClass">
       <li
-        style="list-style-type:none;width:100%"
-        v-for="(item,i) in arr"
-        :class="{liClass:i===index}"
+        style="list-style-type: none; width: 100%"
+        v-for="(item, i) in arr"
+        :class="{ liClass: i === index }"
         :key="i"
-        @click="handleClickLi(item,i)"
-      >{{item}}</li>
+        @click="handleClickLi(item, i)"
+      >
+        {{ item }}
+      </li>
     </ul>
   </div>
 </template>
@@ -39,15 +41,15 @@ export default {
       unbind(el) {
         document.removeEventListener("click", el.__vueClickOutside__);
         delete el.__vueClickOutside__;
-      }
-    }
+      },
+    },
   },
   data() {
     return {
       text: "first",
       arr: ["first", "second", "three"],
       isShow: false,
-      index: 0
+      index: 0,
     };
   },
   created() {},
@@ -62,15 +64,15 @@ export default {
       this.text = item;
       this.isShow = false;
       this.index = index;
-      alert(item);
+      // alert(item);
     },
     // 自定义指令监听方法，点击空白页面隐藏选项
     handleClose() {
       if (this.isShow) {
         this.isShow = !this.isShow;
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

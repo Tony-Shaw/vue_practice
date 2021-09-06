@@ -18,7 +18,11 @@
             :default-active="activePath"
           >
             <!-- 一级菜单 -->
-            <el-submenu :index="item.id + ''" v-for="item in menuList" :key="item.id">
+            <el-submenu
+              :index="item.id + ''"
+              v-for="item in menuList"
+              :key="item.id"
+            >
               <template slot="title">
                 <!-- 一级菜单模板区域 -->
                 <i :class="iconsObj[item.id]"></i>
@@ -67,14 +71,14 @@ export default {
               authName: "动态组件",
               path: "dynamicComponents",
               children: [],
-              order: null
+              order: null,
             },
             {
               id: 111,
               authName: "nextTick()",
               path: "nextTick",
               children: [],
-              order: null
+              order: null,
             },
             // {
             //   id: 112,
@@ -88,18 +92,25 @@ export default {
               authName: "echartsMap",
               path: "echartsMap",
               children: [],
-              order: null
+              order: null,
             },
-             {
+            {
               id: 114,
               authName: "面试",
               path: "interview",
               children: [],
-              order: null
+              order: null,
+            },
+            {
+              id: 115,
+              authName: "分享",
+              path: "test",
+              children: [],
+              order: null,
             },
           ],
-          order: 1
-        }
+          order: 1,
+        },
       ],
       // 一级图标样式
       iconsObj: {
@@ -107,12 +118,12 @@ export default {
         110: "iconfont icon-tijikongjian",
         111: "iconfont icon-shangpin",
         112: "iconfont icon-danju",
-        113: "iconfont icon-baobiao"
+        113: "iconfont icon-baobiao",
       },
       // 左侧菜单是否折叠
       isCollapse: false,
       // 当前激活链接
-      activePath: ""
+      activePath: "",
     };
   },
   methods: {
@@ -125,8 +136,8 @@ export default {
     // 左侧菜单折叠
     toggleCollapse() {
       this.isCollapse = !this.isCollapse;
-    }
-  }
+    },
+  },
 };
 </script>
 
