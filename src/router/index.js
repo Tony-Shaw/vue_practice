@@ -7,6 +7,7 @@ import NextTick from '@/components/nextTick'
 import VuexTest from '@/components/vuex'
 import Interview from '@/components/interview'
 import Test from '@/components/test'
+import JsonCheck from '@/page/formatCheck/jsonFormat'
 Vue.use(Router)
 
 const router = new Router({
@@ -17,11 +18,11 @@ const router = new Router({
       component: Home,
       redirect: '/nextTick',
       children: [
-        {
-          path: '/echartsMap',
-          name: 'EchartsMap',
-          component: EchartsMap
-        },
+        // {
+        //   path: '/echartsMap',
+        //   name: 'EchartsMap',
+        //   component: EchartsMap
+        // },
         {
           path: '/interview',
           name: 'Interview',
@@ -46,6 +47,19 @@ const router = new Router({
           path: '/vuexTest',
           name: 'VuexTest',
           component: VuexTest
+        },
+        {
+          path: '/Format',
+          name: 'JsonCheck',
+          redirect: '/jsonFormat',
+          component: JsonCheck,
+          children: [
+            {
+              path: '/jsonFormat',
+              name: 'JsonCheck',
+              component: JsonCheck
+            }
+          ]
         }
       ]
     },

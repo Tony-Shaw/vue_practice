@@ -80,13 +80,6 @@ export default {
               children: [],
               order: null,
             },
-            // {
-            //   id: 112,
-            //   authName: "vuexTest",
-            //   path: "vuexTest",
-            //   children: [],
-            //   order: null
-            // },
             {
               id: 113,
               authName: "echartsMap",
@@ -111,11 +104,26 @@ export default {
           ],
           order: 1,
         },
+        {
+          id: 116,
+          authName: "格式校验",
+          path: "Format",
+          children: [
+            {
+              id: 117,
+              authName: "json格式校验",
+              path: "jsonFormat",
+              children: [],
+              order: null,
+            },
+          ],
+          order: null,
+        },
       ],
       // 一级图标样式
       iconsObj: {
         125: "iconfont icon-user",
-        110: "iconfont icon-tijikongjian",
+        116: "iconfont icon-tijikongjian",
         111: "iconfont icon-shangpin",
         112: "iconfont icon-danju",
         113: "iconfont icon-baobiao",
